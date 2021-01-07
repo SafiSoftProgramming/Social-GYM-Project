@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/list_info_big_new"
+        app:layout_constraintVertical_bias="0.0">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgv_member_profile_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gymnatiionlogo_squr_defult_err"
+            app:civ_background_color="#060f14"
+            app:civ_border_color="#044a42"
+            app:civ_border_width="1dp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgv_gym_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:elevation="1dp"
+            android:layout_marginTop="-40dp"
+            android:layout_marginEnd="-50dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/gymnatiionlogo_squr_defult_err"
+            app:civ_background_color="#060f14"
+            app:civ_border_color="#044a42"
+            app:civ_border_width="1dp" />
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_member_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_user_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#3fb5a6"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/txtv_member_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Data"
+                android:textColor="#3fb5a6"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_gym_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_fitness_center_black_24dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym Name"
+                android:textColor="#3fb5a6"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/txtv_gym_name"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="No Data"
+                android:textColor="#3fb5a6"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_member_plane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/ic_member_plane" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Plan"
+                android:textColor="#3fb5a6"
+                android:textSize="12sp" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/txtv_member_plane"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="No Data"
+                android:textColor="#3fb5a6"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lay_member_startdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_member_start_date" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Date"
+                android:textColor="#3fb5a6"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/txtv_member_startdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Data"
+                android:textColor="#3fb5a6"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_member_enddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_member_end_date" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Date"
+                android:textColor="#3fb5a6"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/txtv_member_enddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Data"
+                android:textColor="#3fb5a6"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_member_plane" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Plans"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textColor="#3fb5a6"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+    <pl.droidsonroids.gif.GifTextView
+        android:id="@+id/gifTextView_conn_status"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/arrow_down"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>

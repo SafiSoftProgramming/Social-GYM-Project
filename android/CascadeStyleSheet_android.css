@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 27, 2019, 3:31:49 AM
+    Author     : root
+*/
+
+.button_hover:hover {
+    -fx-background-color:  #b8e1dd;
+    
+    
+}
+
+.button_pressed:pressed {
+    -fx-scale-y: 1.2;
+}
+
+.jfx-text-field, .jfx-password-field {
+    
+    -fx-text-inner-color:#ff7c00;   
+}
+
+.pane{
+   -fx-background-color: #060f14;
+ 
+/*   -fx-border-width: 2 ;
+   -fx-border-color:   #3fb5a6 ;*/
+   
+    -fx-border-radius: 50 0 50 50;
+  -fx-background-radius: 50 0 50 50;
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+    
+}
+
+.image-view-wrapper:border {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+    -fx-border-width: 5;
+}
+
+
+.main_pane{
+   -fx-background-color:  #060f14;
+ /*  -fx-border-width: 5 ;
+   -fx-border-color:  #b8e1dd ;*/
+   
+    -fx-border-radius: 50 50 50 50;
+  -fx-background-radius: 50 50 50 50;
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+    
+}
+
+
+.pane_tranc{
+    -fx-background-color: black;
+    -fx-opacity: 0.8 ;
+    -fx-border-color: aquamarine ;
+    -fx-border-width: 7 ;
+    
+ /*  -fx-border-width: 5 ;
+   -fx-border-color:  #b8e1dd ;*/
+   -fx-border-radius: 50 ;
+   -fx-background-radius:50 ;
+    
+}
+
+
+.scroll-pane .scroll-bar:vertical {
+    -fx-unit-increment: 100 ;
+    -fx-block-increment: 200 ;
+}
+
+
+.hover:hover {
+    -fx-scale-y: 1.2;
+    -fx-scale-x:1.2;
+    font-style: oblique ;
+       -fx-border-width: 1 ;
+   -fx-border-color:  #ff7c00 ;
+}
+
+.hover_horz:hover {
+    -fx-scale-y: 1.0;
+    -fx-scale-x:1.0;
+    font-style: oblique ;
+        -fx-border-width: 1 ;
+   -fx-border-color:  #ff7c00 ;
+}
+
+.save_button_radius_rt{
+    
+    -fx-border-radius: 0 0 50 0;
+  -fx-background-radius: 0 0 50 0;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.save_button_radius_lt{
+    
+  -fx-border-radius: 0 0 0 50;
+  -fx-background-radius: 0 0 0 50;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.ok_button_radius_rt_lt{
+    
+    -fx-border-radius: 0 0 50 50;
+  -fx-background-radius: 0 0 50 50;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+
+.button_radius_lt_and_rt{
+    
+    -fx-border-radius: 0 0 50 50;
+  -fx-background-radius: 0 0 50 50;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+
+.pane_radius_toprt_bottomrt{
+    
+    -fx-border-radius: 0 50 50 0;
+  -fx-background-radius: 0 50 50 0;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.pane_radius_top{
+    -fx-background-color:  #060f14;
+    
+    -fx-border-radius: 50 50 0 0;
+  -fx-background-radius: 50 50 0 0;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.pane_radius_bottomlft{
+    
+    -fx-border-radius: 0 0 0 50;
+  -fx-background-radius: 0 0 0 50;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.pane_main_boyyom_rt_radius{
+    -fx-background-color:  #060f14;
+    
+    -fx-border-radius: 0 0 50 0;
+  -fx-background-radius: 0 0 50 0;
+  
+   /* top-left, top-right, bottom-right, and bottom-left corners, in that order. */
+}
+
+.jfx-radio-button {
+    -fx-selected-color: yellow;
+    -fx-unselected-color: blue;
+}
+
+.jfx-rippler {
+    -fx-rippler-fill: lime;
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main_notification_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:animateLayoutChanges="true"
+    tools:context=".NotificationActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:src="@drawable/gymnatiion_logo" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trans_line"
+            android:elevation="1dp"/>
+
+
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/pullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-30dp"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recylcerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:visibility="gone"
+                />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <pl.droidsonroids.gif.GifTextView
+            android:id="@+id/gifTextView_conn_status"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/loding_gif"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout_activity_control"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/butom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/btn_img_home"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_not" />
+
+        <ImageView
+            android:id="@+id/btn_img_member_and_plan"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/member_and_plan_not" />
+
+        <ImageView
+            android:id="@+id/btn_img_status"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/status_not" />
+
+        <ImageView
+            android:id="@+id/btn_img_workout_history"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/workout_not" />
+
+
+        <ImageView
+            android:id="@+id/btn_img_notification"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification" />
+
+        <ImageView
+            android:id="@+id/btn_img_settings"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings_not" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

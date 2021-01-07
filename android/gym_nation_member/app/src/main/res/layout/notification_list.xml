@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/list_backg_small_box_up">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/imgv_massage_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/t"
+                app:civ_border_color="#044a42"
+                app:civ_border_width="2dp"
+                app:civ_shadow="true"
+                app:civ_shadow_color="#3fb5a6"
+                app:civ_background_color="#060f14"
+                android:scaleType="centerInside"
+                app:civ_shadow_radius="0"/>
+
+            <TextView
+                android:id="@+id/txtv_massage_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="massage head"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:textColor="#3fb5a6"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+           >
+
+
+
+            <TextView
+                android:id="@+id/txtv_massage_body"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=" hkh hkhkh hkh kh khKBB  hkh hkhBUKB UH UHB KUHBK HUB KUBUBH KUHB BUKB UBUB UBBU BU BKUBUBKBUKBUBKUBKBUU U U"
+                android:textColor="#3fb5a6"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textIsSelectable="true"
+                android:autoLink="all"
+
+                />
+
+            <ImageView
+                android:id="@+id/imgv_show_more_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_more_text_arrow_down"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_time_grr"
+                    />
+
+            <TextView
+                android:id="@+id/txtv_massage_time_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="info"
+                android:textColor="#3fb5a6"
+                />
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/list_backg_small_box_down"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
